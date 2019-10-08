@@ -1,0 +1,36 @@
+{
+  "name": "hypercore-download",
+  "version": "0.0.0",
+  "description": "Linearly download the blocks in a sparse Hypercore feed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "hypercore",
+    "download",
+    "linear",
+    "sparse"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "hypercore": "^8.1.2",
+    "hypercore-ready": "^0.2.0",
+    "hypercore-replicate": "^0.3.0",
+    "random-access-memory": "^3.1.1",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "batch": "^0.6.1",
+    "once": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwerle/hypercore-download.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwerle/hypercore-download/issues"
+  },
+  "homepage": "https://github.com/jwerle/hypercore-download#readme"
+}
