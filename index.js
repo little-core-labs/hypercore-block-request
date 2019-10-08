@@ -61,6 +61,4 @@ function download(feed, opts, done) {
   }
 }
 
-module.exports = Object.assign(download, {
-  STRIDE_BLOCKS
-})
+module.exports = download
