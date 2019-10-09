@@ -1,17 +1,19 @@
-hypercore-download
-==================
+hypercore-block-request
+=======================
 
 > Linearly download the blocks in a sparse Hypercore feed.
 
 ## Installation
 
 ```sh
-$ npm install hypercore-download
+$ npm install hypercore-block-request
 ```
 
 ## Usage
 
 ```js
+const download = require('hypercore-block-request')
+
 // download all blocks until end of feed in strides of 4
 // in sets of 2 concurrent download requests starting at block 3
 download(feed, { start: 3, concurrency: 2, stride: 4 }, (err) => {

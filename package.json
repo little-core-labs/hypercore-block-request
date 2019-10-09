@@ -1,5 +1,5 @@
 {
-  "name": "hypercore-download",
+  "name": "hypercore-block-request",
   "version": "0.1.1",
   "description": "Linearly download the blocks in a sparse Hypercore feed.",
   "main": "index.js",
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwerle/hypercore-download.git"
+    "url": "git+https://github.com/jwerle/hypercore-block-request.git"
   },
   "bugs": {
-    "url": "https://github.com/jwerle/hypercore-download/issues"
+    "url": "https://github.com/jwerle/hypercore-block-request/issues"
   },
-  "homepage": "https://github.com/jwerle/hypercore-download#readme"
+  "homepage": "https://github.com/jwerle/hypercore-block-request#readme"
 }
